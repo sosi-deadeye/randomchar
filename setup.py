@@ -14,23 +14,22 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/fr4nkl1n-1k3h/randomChar",
-    keywords=['random, strings, characters, tools, module, generator']
+    keywords=["random, strings, characters, tools, module, generator"],
     classifiers=[
         "Programming Language :: Python :: 3",
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        'Development Status :: 3 - Alpha',
+        "Development Status :: 3 - Alpha",
         # Indicates who your project is intended for
-        'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
-
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Build Tools",
     ],
-    python_requires='>=3.6, <4',
+    python_requires=">=3.6, <4",
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/fr4nkl1n-1k3h/randomchar/issues',
-        'Source': 'https://github.com/fr4nkl1n-1k3h/randomchar/',
+        "Bug Reports": "https://github.com/fr4nkl1n-1k3h/randomchar/issues",
+        "Source": "https://github.com/fr4nkl1n-1k3h/randomchar/",
     },
 )
