@@ -1,61 +1,42 @@
-import random
-import string
-import secrets
-
-def Letter(length = 1):
-    charSequence = []
-    for i in range(length):
-        charSequence.append(random.choice(string.ascii_letters))
-        
-    return ''.join(charSequence)
+from random import choice, shuffle
+from string import (
+    ascii_letters,
+    ascii_lowercase,
+    ascii_uppercase,
+    punctuation,
+    digits as ascii_digits,
+)
 
 
-def LoCase(length = 1):
-    charSequence = []
-    for i in range(length):
-        charSequence.append(random.choice(string.ascii_lowercase))
-        
-    return ''.join(charSequence)
+def letter(length=1):
+    return "".join(choice(ascii_letters) for _ in range(length))
 
 
-def UpCase(length = 1):
-    charSequence = []
-    for i in range(length):
-        charSequence.append(random.choice(string.ascii_uppercase))
-        
-    return ''.join(charSequence)
+def lower_case(length=1):
+    return "".join(choice(ascii_lowercase) for _ in range(length))
 
 
-def Digit(length = 1):
-    charSequence = []
-    for i in range(length):
-        charSequence.append(random.choice(string.digits))
-        
-    return ''.join(charSequence)
+def upper_case(length=1):
+    return "".join(choice(ascii_uppercase) for _ in range(length))
 
 
-def Symbol(length = 1):
-    charSequence = []
-    for i in range(length):
-        charSequence.append(random.choice(string.punctuation))
-        
-    return ''.join(charSequence)
+def digit(length=1):
+    return "".join(choice(ascii_digits) for _ in range(length))
 
 
-def All(length = 1):
-    charSequence = []
-    for i in range(length):
-        charSequence.append(random.choice(string.ascii_letters + string.digits + string.punctuation))
-        
-    return ''.join(charSequence)
-    
-def Password(length):
-	charSequence = []
-	for i in range(length):
-	   charSequence.append(secrets.choice(string.ascii_letters + string.digits + string.punctuation))
-	   
-	random.shuffle(charSequence)
-	return ''.join(charSequence)
-    
-if __name__ == "__main__":
-    print(" ")
+def symbol(length=1):
+    return "".join(choice(punctuation) for _ in range(length))
+
+
+def all_ascii(length=1):
+    return "".join(
+        choice(ascii_letters + ascii_digits + punctuation) for _ in range(length)
+    )
+
+
+def password(length):
+    char_sequence = [
+        choice(ascii_letters + ascii_digits + punctuation) for _ in range(length)
+    ]
+    shuffle(char_sequence)
+    return "".join(char_sequence)

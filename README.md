@@ -12,22 +12,22 @@ This package has not been released to the Python Package Index (yet).
 ```python
 import randomchar
 
-randomchar.Letter(5)
+randomchar.letter(5)
 #returns a sequence of 5 random characters
-randomchar.Digit(9)
+randomchar.digit(9)
 #returns a sequence of 9 random digits
-randomchar.Symbol(3)
+randomchar.symbol(3)
 #returns a sequence of 3 random symbols
-randomchar.Password(8)
+randomchar.password(8)
 #returns a secure sequence of 8 characters
 
-randomchar.Letter()
+randomchar.letter()
 #returns a single random letter
-randomchar.Digit()
+randomchar.digit()
 #returns a single random number
-randomchar.Symbol()
+randomchar.symbol()
 #returns a single random symbol
-randomchar.All()
+randomchar.all_ascii()
 #returns a single random character
 
 ```
