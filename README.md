@@ -33,12 +33,12 @@ randomchar.all_ascii()
 ```
 
 ## `randomchar` functions
-* `letter()` - This function returns a sequence of ramdom **letters**, if its called with out any arguments it returns just one random **letter**
-* `lower_case()` - This function returns a sequence of ramdom **lowercase letters**, if its called with out any arguments it returns just one random **lowercase letter**
-* `upper_case()` - This function returns a sequence of ramdom **uppercase letters**, if its called with out any arguments it returns just one random **uppercase letter**
-* `digit()` - This function returns a sequence of ramdom **digits**, if its called with out any arguments it returns just one random **digit**
-* `symbol()` - This function returns a sequence of ramdom **symbols**, if its called with out any arguments it returns just one random **symbol**
-* `all_ascii()` - This function returns a sequence of ramdom **character**, if its called with out any arguments it returns just one random **character**
+* `letter()` - This function returns a sequence of random **letters**, if its called with out any arguments it returns just one random **letter**
+* `lower_case()` - This function returns a sequence of random **lowercase letters**, if its called with out any arguments it returns just one random **lowercase letter**
+* `upper_case()` - This function returns a sequence of random **uppercase letters**, if its called with out any arguments it returns just one random **uppercase letter**
+* `digit()` - This function returns a sequence of random **digits**, if its called with out any arguments it returns just one random **digit**
+* `symbol()` - This function returns a sequence of random **symbols**, if its called with out any arguments it returns just one random **symbol**
+* `all_ascii()` - This function returns a sequence of random **character**, if its called with out any arguments it returns just one random **character**
 * `password()`
 
 ## Contributing
