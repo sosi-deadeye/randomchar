@@ -33,13 +33,13 @@ randomchar.all_ascii()
 ```
 
 ## `randomchar` functions
-* `Letter()` - This function returns a sequence of ramdom **letters**, if its called with out any arguments it returns just one random **letter**
-* `LoCase()` - This function returns a sequence of ramdom **lowercase letters**, if its called with out any arguments it returns just one random **lowercase letter**
-* `UpCase()` - This function returns a sequence of ramdom **uppercase letters**, if its called with out any arguments it returns just one random **uppercase letter**
-* `Digit()` - This function returns a sequence of ramdom **digits**, if its called with out any arguments it returns just one random **digit**
-* `Symbol()` - This function returns a sequence of ramdom **symbols**, if its called with out any arguments it returns just one random **symbol**
-* `All()` - This function returns a sequence of ramdom **character**, if its called with out any arguments it returns just one random **character**
-* `Password()`
+* `letter()` - This function returns a sequence of ramdom **letters**, if its called with out any arguments it returns just one random **letter**
+* `lower_case()` - This function returns a sequence of ramdom **lowercase letters**, if its called with out any arguments it returns just one random **lowercase letter**
+* `upper_case()` - This function returns a sequence of ramdom **uppercase letters**, if its called with out any arguments it returns just one random **uppercase letter**
+* `digit()` - This function returns a sequence of ramdom **digits**, if its called with out any arguments it returns just one random **digit**
+* `symbol()` - This function returns a sequence of ramdom **symbols**, if its called with out any arguments it returns just one random **symbol**
+* `all_ascii()` - This function returns a sequence of ramdom **character**, if its called with out any arguments it returns just one random **character**
+* `password()`
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
